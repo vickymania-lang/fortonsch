@@ -35,6 +35,19 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <style>
+        .container {
+            object-fit: cover;
+        }
+
+        #img1 {
+            background: linear-gradient(rbga(0,0,0,0.6), rbga(0,0,0,0.6));
+            width: 100%;
+            opacity: 0.5;
+        }
+    </style>
+
+
 </head>
 
 <body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
@@ -84,17 +97,19 @@
     <div class="ulockd-home-slider">
         <div class="container-fluid">
             <div class="row">
-                <div class="pogoSlider" id="js-main-slider">
-                    <div class="pogoSlider-slide" style="background-image:url(images/fortonschool/b1.jpg);">
+                <div class="pogoSlider" id="js-main-slider" >
+                    <div class="pogoSlider-slide" id="img1" style=" opacity: 0.1; background-color: black; position: absolute; background-image:url(images/fortonschool/b1.jpg);">
+                        <!-- <img class="img1" src="images/fortonschool/b1.jpg"> -->
+                        
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="slide_text">
-                                        <h3><span span class="theme_color">You are highly </span><br>to welcome</h3>
-                                        <h3>Forton Schools</h3>
+                                        <h3><span span  class="theme_black" style="text-shadow: 2px 2px green;">You are highly <br> </span style="text-shadow: 2px 2px green;">to welcome</h3>
+                                        <h3 style="text-shadow: 2px 2px green;">Forton Schools</h3>
                                         <br>
                                         <div class="full center">
-										    <a class="contact_bt" href="courses.html">Start a Course</a>
+										    <a class="contact_bt" href="about.html">About us</a>
 										</div>
                                     </div>
                                 </div>
@@ -106,12 +121,12 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="slide_text">
-                                        <h3><span span class="theme_color">To build and drive excellence 
-                                            </span><br>in our academics,</h3>
-                                        <h4>skill acquisition and student relationship</h4>
+                                        <h3><span span style="text-shadow: 2px 2px green;">To build and drive excellence <br>
+                                            </spanstyle="text-shadow: 2px 2px green;">in our academics,</h3>
+                                        <h4 style="text-shadow: 2px 2px green;">skill acquisition and student relationship</h4>
                                         <br>
                                         <div class="full center">
-										    <a class="contact_bt" href="courses.html">Start a Course</a>
+										    <a class="contact_bt" href="about.html">About us</a>
 										</div>
                                     </div>
                                 </div>
